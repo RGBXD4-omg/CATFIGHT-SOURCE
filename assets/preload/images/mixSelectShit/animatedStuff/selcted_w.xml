@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="selcted w.png">
+	<!-- Created with Adobe Animate version 19.1.0.349 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="flower0000" x="5" y="5" width="953" height="1080"/>
+	<SubTexture name="flower0001" x="5" y="5" width="953" height="1080"/>
+	<SubTexture name="flower0002" x="5" y="5" width="953" height="1080"/>
+	<SubTexture name="flower0003" x="5" y="5" width="953" height="1080"/>
+	<SubTexture name="flower0004" x="5" y="1090" width="953" height="1080"/>
+	<SubTexture name="flower0005" x="5" y="1090" width="953" height="1080"/>
+	<SubTexture name="flower0006" x="5" y="1090" width="953" height="1080"/>
+	<SubTexture name="flower0007" x="5" y="1090" width="953" height="1080"/>
+	<SubTexture name="flower0008" x="5" y="2175" width="953" height="1080"/>
+	<SubTexture name="flower0009" x="5" y="2175" width="953" height="1080"/>
+	<SubTexture name="flower0010" x="5" y="2175" width="953" height="1080"/>
+	<SubTexture name="flower0011" x="5" y="2175" width="953" height="1080"/>
+</TextureAtlas>
