@@ -159,7 +159,7 @@ class MainMenuState extends MusicBeatState
 		versionShit.setFormat(Paths.font("fontthingie.ttf"), 16, FlxColor.WHITE, LEFT);
 		add(versionShit);
 
-		var versionShit:FlxText = new FlxText(2, FlxG.height - 28, 0, "PSYCH ENGINE v"+psychEngineVersion, 12);
+		var versionShit:FlxText = new FlxText(2, FlxG.height - 26, 0, "PSYCH ENGINE v"+psychEngineVersion, 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat(Paths.font("fontthingie.ttf"), 16, FlxColor.WHITE, LEFT);
 		add(versionShit);
