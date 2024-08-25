@@ -228,6 +228,10 @@ class ChooseMixState extends MusicBeatState
 
         changeItem();
 
+	    #if android
+            addVirtualPad(LEFT_RIGHT, A_B);
+	    #end
+
         super.create();
 
     }
