@@ -154,7 +154,12 @@ class MainMenuState extends MusicBeatState
 		}
 
 
-		var versionShit:FlxText = new FlxText(2, FlxG.height - 48, 0, "FNF: CATFIGHT\nPSYCH ENGINE v"+psychEngineVersion, 12);
+		var versionShit:FlxText = new FlxText(2, FlxG.height - 48, 0, "FNF: CATFIGHT", 12);
+		versionShit.scrollFactor.set();
+		versionShit.setFormat(Paths.font("fontthingie.ttf"), 16, FlxColor.WHITE, LEFT);
+		add(versionShit);
+
+		var versionShit:FlxText = new FlxText(2, FlxG.height - 28, 0, "PSYCH ENGINE v"+psychEngineVersion, 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat(Paths.font("fontthingie.ttf"), 16, FlxColor.WHITE, LEFT);
 		add(versionShit);
